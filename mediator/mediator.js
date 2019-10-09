@@ -75,14 +75,16 @@ mediator.subscribe('attack', () => {
     console.log('"attack" event dispatched');
 });
 
+
 // Create a new object that will subscribe to the "attack" events
 function Defender() {
     const onAttack = (damage, weapon) => {
-        console.log(`Attacked with ${weapon}. Damage: ${damage}`);
+        console.log(`Attacked with ${weapon}. Damage: ${damage}hp`);
     };
     mediator.subscribe('attack', onAttack);
 };
 new Defender();
+
 
 // Object that will dispatch "attack" events
 function Attacker() {

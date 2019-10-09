@@ -1,5 +1,3 @@
-// JavaScript classes are syntactical sugar over JavaScript's existing prototype-based inheritance.
-
 class MyClass {
     constructor() {
         // Private prop (naming convention)

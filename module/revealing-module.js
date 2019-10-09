@@ -3,15 +3,17 @@ const Module = (() => {
     // Private var
     const privateVar = 'This a private property';
 
+    /**
+     * @public
+     */
+    const publicMethod = () => {
+        console.log('Called publicMethod');
+        console.log(privateVar);
+    }
+
     // Export public methods
     return {
-        /**
-         * @public
-         */
-        publicMethod() {
-            console.log('Called publicMethod');
-            console.log(privateVar);
-        }
+        publicMethod
     };
 })();
 

@@ -43,6 +43,7 @@ try {
 } catch(err) {
     console.log('[Error]', err.message);
 }
+
 myclass = Singleton.getInstance();
 myclass = Singleton.getInstance();
 myclass.privateProp = 'Hello world';

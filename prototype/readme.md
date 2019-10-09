@@ -5,4 +5,3 @@ When it comes to inheritance, JavaScript only has one construct: objects. Each o
 
 Nearly all objects in JavaScript are instances of Object which sits on the top of a prototype chain.
 
-While this confusion is often considered to be one of JavaScript's weaknesses, the prototypal inheritance model itself is, in fact, more powerful than the classic model. It is, for example, fairly trivial to build a classic model on top of a prototypal model.

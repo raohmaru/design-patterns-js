@@ -5,7 +5,8 @@ const privateMethod = ()  => {
 
 /** @public */
 const publicMethod = ()  => {
-    console.log('Called publicMethod');
+    console.log('Called a public method');
+    console.log('Now I\'m gonna call a private method from here');
     privateMethod();
 };
 
