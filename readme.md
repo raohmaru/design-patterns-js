@@ -3,5 +3,5 @@ A collection of design patterns applied to Frontend and implemented in JavaScrip
 
 _"Reasoning about the Data Flows within different components of a software system is the central idea of software architecture."_
 
-## Licene
+## License
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
