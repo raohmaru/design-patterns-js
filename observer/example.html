@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Observer Design Pattern</title>
+</head>
+<body>
+    <button id="mybutton">Will notify to all observers</button>
+    <output id="output"></output>
+    <script src="observer.js"></script>
+    <script>
+        class MyObserver extends Observer {
+            /** @override */
+            notify(data) {
+                document.getElementById('output').innerHTML += `<br>Observer notified`;
+            }
+        }
+
+        const sub = new Subject();
+        const obs = new MyObserver();
+        sub.subscribeObserver(obs);
+
+        document.getElementById('mybutton').addEventListener('click', (e) => {
+            sub.notifyAllObservers();
+        });
+    </script>
+</body>
+</html>
