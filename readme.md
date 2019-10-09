@@ -9,10 +9,6 @@ web developers who create user interfaces. In general, patterns do not specify r
 recommended solutions to design problems. They give generalized solutions in the form of templates that may be applied
 to real-world problems.
 
-## License
-[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
-
-
 ## Introduction
 In classical object-oriented programming languages, a constructor is a special method used to initialize a newly
 created object once memory has been allocated for it.
@@ -146,3 +142,6 @@ then each object created by that same constructor will also have this same prope
 
 ## More About front-end patterns
 https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231
+
+## License
+[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
